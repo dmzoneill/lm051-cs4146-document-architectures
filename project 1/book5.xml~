@@ -1,0 +1,52 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book SYSTEM "book.dtd">
+<?xml-stylesheet href="reset.css" type="text/css"?>
+<?xml-stylesheet href="book.css" type="text/css"?>
+<book id="book5" category="Programming" covertype="soft" lang="en">
+    <title>Professional Ajax</title>
+    <authors>
+        <person sex="male">
+            <firstname>Nicholas</firstname>
+            <initial>C</initial>
+            <surname>Zakas</surname>                          
+        </person>
+        <person sex="male">
+            <firstname>Jeremy</firstname>
+            <surname>McPeak</surname>      
+        </person>
+        <person sex="male">
+            <firstname>Joe</firstname>
+            <surname>Fawcett</surname>                          
+        </person>
+    </authors>
+    <publisher>
+        <publishername>Wiley Publishing Inc.</publishername>
+        <address>
+            <addressnum>10475</addressnum>
+            <street>Crosspoint Boulevard</street>
+            <city>Indianapolis</city>
+            <country>United States</country>
+            <zipcode>46256</zipcode>
+        </address>
+    </publisher>
+    <publishedDate>
+        <date>
+            <year>2006</year>
+        </date>        
+    </publishedDate>
+    <copyright>
+        <date>
+            <year>2006</year>
+        </date>
+        <companyname>Wiley Publishing</companyname>
+    </copyright>
+    <isbn>
+        <isbn10>0-471-77778-1</isbn10>
+        <isbn13>978-0-471-77778-6</isbn13>
+    </isbn>
+    <other>
+        <wwwurl>http://www.wrox.com</wwwurl>
+        <wwwurl>http://www.wiley.com</wwwurl>
+        <pages>406</pages>
+    </other>
+</book>

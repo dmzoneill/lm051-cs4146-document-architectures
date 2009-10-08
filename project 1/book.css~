@@ -1,0 +1,302 @@
+book
+{
+    font-family: verdana;
+    font-size: 8pt;
+    margin: 0px 0px 10px 50px;
+    display: block;
+    width: 800px;
+    padding: 10px;
+}
+
+title
+{
+    font-size:14pt;
+    margin-left: -30px;
+    line-height:50px;
+}
+    
+authors
+{
+    display:block;
+    border-bottom:black 1px dashed;
+    border-top:black 1px dashed;
+    padding: 10px 0px 10px 0px;
+}
+
+firstname, initial, lastname, month, year
+{
+    display:inline;
+}
+
+email
+{
+    display:block;
+    color:blue;
+    font-size:9pt;
+}
+    
+publishername, buildingname, addressnum, street, city, state, country, zipcode, postcode, editionnum, companyname, date, isbn13, isbn10, wwwurl, pages, person
+{
+    margin-left:200px;
+    display:block; 
+}
+
+address, copyright, isbn, price, picture
+{
+    display:block;
+}
+
+edition, publishedDate, copyright, isbn, publisher, AcquisitionsEditors, projectEditors, coverDesigners, graphicDesigners, principalCompositors, copyEditors, technicalEditors, proofReaders, developmentEditors, indexers, other
+{
+    display:block;
+    border-bottom:black 1px dashed;
+    padding: 10px 0px 10px 0px;
+}
+
+
+
+
+
+
+
+
+authors:before
+{
+    font-size:8pt;
+    color: #440000;
+    content: "Authors : ";
+    padding-left:10px;
+}
+
+publisher:before
+{
+    font-size:11px;
+    color: #440000;
+    content: "Publisher : ";
+    padding-left:10px;
+}
+
+edition:before
+{
+    font-size:11px;
+    color: #440000;
+    content: "Edition :";
+    padding-left:10px;
+}
+
+publishedDate:before
+{   
+    font-size:11px;
+    color: #440000;
+    content: "Published : ";
+    padding-left:10px;
+}
+
+copyright:before
+{
+    font-size:11px;
+    color: #440000;
+    content: "Copyright : ";
+    padding-left:10px;
+}
+
+isbn:before
+{
+    font-size:11px;
+    color: #440000;
+    content: "ISBN : ";   
+    padding-left:10px;
+}
+
+AcquisitionsEditors:before
+{
+    font-size:11px;
+    color: #440000;
+    content:"Acquisitions Editors : ";
+    padding-left:10px;
+}
+
+projectEditors:before
+{
+    font-size:11px;
+    color: #440000;
+    content:"Project Editors : ";
+    padding-left:10px;
+}
+
+coverDesigners:before
+{
+    font-size:11px;
+    color: #440000;
+    content:"Cover Designers : ";
+    padding-left:10px;
+}
+
+graphicDesigners:before
+{
+    font-size:11px;
+    color: #440000;
+    content:"Graphic Designers : ";
+    padding-left:10px;
+}
+
+principalCompositors:before
+{
+    font-size:11px;
+    color: #440000;
+    content:"Principal Compositors : ";
+    padding-left:10px;
+}
+
+copyEditors:before
+{
+    font-size:11px;
+    color: #440000;
+    content:"Copy Editors : ";
+    padding-left:10px;
+}
+
+technicalEditors:before
+{
+    font-size:11px;
+    color: #440000;
+    content:"Technical Editors : ";
+    padding-left:10px;
+}
+
+proofReaders:before
+{
+    font-size:11px;
+    color: #440000;
+    content:"Proof Readers : ";
+    padding-left:10px;
+}
+
+developmentEditors:before
+{
+    font-size:11px;
+    color: #440000;
+    content:"Development Editors : ";
+    padding-left:10px;
+}
+
+indexers:before
+{
+    font-size:11px;
+    color: #440000;
+    content:"Indexors : ";
+    padding-left:10px;
+}
+
+other:before
+{
+    font-size:11px;
+    color: #440000;
+    content:"Other : ";
+    padding-left:10px;
+}
+
+pages:before
+{
+    font-size:11px;
+    color: #440000;
+    content:"Pages : ";
+}
+
+
+
+
+
+
+
+
+authors:hover,publisher:hover,edition:hover,publishedDate:hover
+{
+    border-left:black 1px dashed;
+    border-right:black 1px dashed;
+    background-color:#FFEEFF;
+}
+
+copyright:hover
+{
+    border-left:black 1px dashed;
+    border-right:black 1px dashed;
+    background-color:#FFEEFF;
+}
+
+isbn:hover
+{
+    border-left:black 1px dashed;
+    border-right:black 1px dashed;
+    background-color:#FFEEFF;
+}
+
+AcquisitionsEditors:hover
+{
+    border-left:black 1px dashed;
+    border-right:black 1px dashed;
+    background-color:#FFEEFF;
+}
+
+projectEditors:hover
+{
+    border-left:black 1px dashed;
+    border-right:black 1px dashed;
+    background-color:#FFEEFF;
+}
+
+coverDesigners:hover
+{
+    border-left:black 1px dashed;
+    border-right:black 1px dashed;
+    background-color:#FFEEFF;
+}
+
+graphicDesigners:hover
+{
+    border-left:black 1px dashed;
+    border-right:black 1px dashed;
+    background-color:#FFEEFF;
+}
+
+copyEditors:hover
+{
+    border-left:black 1px dashed;
+    border-right:black 1px dashed;
+    background-color:#FFEEFF;
+}
+
+technicalEditors:hover
+{
+    border-left:black 1px dashed;
+    border-right:black 1px dashed;
+    background-color:#FFEEFF;
+}
+
+proofReaders:hover
+{
+    border-left:black 1px dashed;
+    border-right:black 1px dashed;
+    background-color:#FFEEFF;
+}
+
+developmentEditors:hover
+{
+    border-left:black 1px dashed;
+    border-right:black 1px dashed;
+    background-color:#FFEEFF;
+}
+
+indexers:hover
+{
+    border-left:black 1px dashed;
+    border-right:black 1px dashed;
+    background-color:#FFEEFF;
+}
+
+other:hover
+{
+    border-left:black 1px dashed;
+    border-right:black 1px dashed;
+    background-color:#FFEEFF;
+}

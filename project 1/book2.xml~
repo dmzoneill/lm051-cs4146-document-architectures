@@ -1,0 +1,54 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book SYSTEM "book.dtd">
+<?xml-stylesheet href="reset.css" type="text/css"?>
+<?xml-stylesheet href="book.css" type="text/css"?>
+<book id="book2" lang="en" covertype="soft" category="Anthology">
+    <title>The Howard Marks  - Book of Dope stories</title>
+    <authors>
+        <person sex="male">
+            <firstname>Howard</firstname>
+            <surname>Marks</surname>
+        </person>
+    </authors>
+    <publisher>
+        <publishername>Vintage</publishername>
+        <address>
+            <buildingname>Random House</buildingname>
+            <addressnum>20</addressnum> 
+            <street>Vauxhall Bridge Road</street>
+            <city>London</city> 
+            <country>England</country>
+            <postcode>SWIV 2SA</postcode>
+        </address>
+    </publisher>
+    <publishedDate>
+        <date>
+            <year>2001</year>
+        </date>
+    </publishedDate>
+    <copyright>
+        <date>
+            <year>2001</year>
+        </date>
+        <person sex="male">
+            <firstname>Howard</firstname>
+            <surname>Marks</surname>
+        </person>
+    </copyright>
+    <isbn>
+        <isbn10>0-09-942855-5</isbn10>
+    </isbn>  
+    <projectEditors>
+        <person sex="female">
+            <firstname>Heather</firstname>
+            <surname>Talbot</surname>
+        </person>
+        <person sex="female">
+            <firstname>Gretchen</firstname>
+            <surname>Uphoff</surname>
+        </person>
+    </projectEditors>  
+    <other>
+        <pages>287</pages>
+    </other>    
+</book>

@@ -1,0 +1,59 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book SYSTEM "book.dtd">
+<?xml-stylesheet href="reset.css" type="text/css"?>
+<?xml-stylesheet href="book.css" type="text/css"?>
+<book id="book4" category="Computer Science" covertype="hard" lang="en">
+    <title>Structured Computer Organization</title>
+    <authors>
+        <person sex="male">
+            <firstname>Andrew</firstname>
+            <initial>S</initial>
+            <surname>Tanenbaum</surname>  
+            <address>
+                <buildingname>Vrije University</buildingname>
+                <city>Amsterdam</city>                
+                <country>Netherlands</country>          
+            </address>                
+        </person>
+    </authors>
+    <publisher>
+        <publishername>Pearson Prentice Hall</publishername>
+        <address>
+            <buildingname>Pearson Prentice Hall</buildingname>
+            <street>Upper Saddle River</street>
+            <city>New Jersey</city>
+            <country>United States</country>
+            <zipcode>07458</zipcode>
+        </address>
+    </publisher>
+    <edition>
+        <editionnum>5</editionnum>
+    </edition>
+    <publishedDate>
+        <date>
+            <year>2006</year>
+        </date>
+    </publishedDate>
+    <copyright>
+        <date>
+            <year>2006</year>
+        </date>
+        <companyname>Pearson Prentice Hall</companyname>
+    </copyright>
+    <isbn>
+        <isbn10>0-13-148521-0</isbn10>
+    </isbn>
+    <copyEditors>        
+        <person sex="male">
+            <firstname>Michael</firstname>
+            <surname>Giacobbe</surname>
+        </person>
+        <person sex="female">
+            <firstname>Lisa</firstname>
+            <surname>McDowell</surname>
+        </person>
+    </copyEditors> 
+    <other>
+        <pages>757</pages>
+    </other>
+</book>

@@ -1,0 +1,55 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book SYSTEM "book.dtd">
+<?xml-stylesheet href="reset.css" type="text/css"?>
+<?xml-stylesheet href="book.css" type="text/css"?>
+<book id="book3" lang="en" covertype="soft" category="Programming">
+    <title>ASP.NET programming with Microsoft VISUAL BASIC.NET Step by Step</title>
+    <authors>
+        <person sex="male">
+            <firstname>Andrew</firstname>
+            <initial>G</initial>
+            <surname>Duthie</surname>
+        </person>
+        <email></email>
+    </authors>
+    <publisher>
+        <publishername>Microsoft Press</publishername>
+        <address>
+            <addressnum>12</addressnum>
+            <street>Microsoft way</street>
+            <city>Redmond</city>
+            <state>Washington</state>
+            <country>United States</country>
+            <postcode>98052-6399</postcode>
+        </address>
+    </publisher>
+    <publishedDate>
+        <date>
+            <year>2003</year>
+        </date>
+    </publishedDate>
+    <copyright>
+        <date>
+            <year>2003</year>
+        </date>
+        <companyname>Microsoft</companyname>
+    </copyright>
+    <isbn>
+        <isbn10>0-7356-1934-4</isbn10>
+    </isbn>
+    <technicalEditors>
+        <person sex="male">
+            <firstname>Tony</firstname>
+            <surname>Zhang</surname>
+        </person>
+    </technicalEditors>    
+    <proofReaders>
+        <person sex="female">
+            <firstname>Jill</firstname>
+            <surname>Mazurczyk</surname>
+        </person>
+    </proofReaders>  
+    <other>
+        <pages>603</pages>
+    </other>    
+</book>

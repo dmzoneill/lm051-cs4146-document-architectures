@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT book 
+(
+    title, 
+    authors, 
+    publisher, 
+    edition?, 
+    publishedDate, 
+    copyright, 
+    isbn, 
+    AcquisitionsEditors?,
+    projectEditors?,
+    coverDesigners?,
+    graphicDesigners?,
+    principalCompositors?,
+    copyEditors?,
+    technicalEditors?,
+    proofReaders?,
+    developmentEditors?,
+    indexers?, 
+    other?
+)>
+<!-- begin description of book and child elements -->
+<!ATTLIST book category CDATA #REQUIRED>
+<!ATTLIST book id CDATA #REQUIRED>
+<!ATTLIST book lang CDATA "en">
+<!ATTLIST book covertype ( soft | hard ) "soft">
+
+<!ELEMENT title ( #PCDATA )>
+<!ATTLIST title lang CDATA "en">
+
+<!ELEMENT authors ( person, address*, email* )+>
+<!ELEMENT publisher ( publishername+, address* )>
+<!ELEMENT email ( #PCDATA )>
+<!ELEMENT publishername ( #PCDATA )>
+
+<!ELEMENT address ( buildingname?, addressnum?, street?, city, state?, country, (zipcode | postcode)? )>
+<!ELEMENT buildingname ( #PCDATA )>
+<!ELEMENT addressnum ( #PCDATA )>
+<!ELEMENT street ( #PCDATA )>
+<!ELEMENT city ( #PCDATA )>
+<!ELEMENT state ( #PCDATA )>
+<!ELEMENT country ( #PCDATA )>
+<!ELEMENT zipcode ( #PCDATA )>
+<!ELEMENT postcode ( #PCDATA )>
+
+<!ELEMENT edition ( editionnum | year )>
+<!ELEMENT editionnum ( #PCDATA )>
+<!ELEMENT publishedDate ( date )>
+<!ELEMENT copyright ( date*, ( companyname | person )* )>
+<!ELEMENT date ( day?, month?, year )>
+<!ELEMENT day ( #PCDATA )>
+<!ELEMENT month ( #PCDATA )>
+<!ELEMENT year ( #PCDATA )>
+<!ELEMENT isbn (isbn10|isbn13)+>
+<!ELEMENT isbn10 ( #PCDATA )>
+<!ELEMENT isbn13 ( #PCDATA )>
+
+<!ELEMENT companyname ( #PCDATA )>
+<!ATTLIST companyname lang CDATA "en">
+<!ELEMENT person ( firstname, initial?, surname, address?, email? )>
+<!ATTLIST person lang CDATA "en">
+<!ATTLIST person sex CDATA #IMPLIED>
+<!ELEMENT firstname ( #PCDATA )>
+<!ELEMENT initial ( #PCDATA )>
+<!ELEMENT surname ( #PCDATA )>
+
+<!ELEMENT AcquisitionsEditors ( person+ )>
+<!ELEMENT projectEditors ( person+ )>
+<!ELEMENT coverDesigners ( person+ )>
+<!ELEMENT graphicDesigners ( person+ )>
+<!ELEMENT principalCompositors ( person+ )>
+<!ELEMENT copyEditors ( person+ )>
+<!ELEMENT technicalEditors ( person+ )>
+<!ELEMENT proofReaders ( person+ )>
+<!ELEMENT indexers ( person+ )>
+<!ELEMENT developmentEditors ( person+ )>
+
+<!ELEMENT other ( wwwurl*, picture?, price?, pages )>
+<!ELEMENT wwwurl ( #PCDATA )>
+<!ELEMENT picture ( #PCDATA )>
+<!ELEMENT price ( #PCDATA )>
+<!ATTLIST price currency ( EUR | USD | GBP ) "EUR">
+<!ELEMENT pages ( #PCDATA )>
+

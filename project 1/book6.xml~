@@ -1,0 +1,58 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book SYSTEM "book.dtd">
+<?xml-stylesheet href="reset.css" type="text/css"?>
+<?xml-stylesheet href="book.css" type="text/css"?>
+<book id="book6" category="Autobiography" covertype="soft" lang="es">
+    <title>Mi Autobiografía</title>
+    <authors>
+        <person sex="male">
+            <firstname>Hristo</firstname>
+            <surname>Stoichkov</surname>                          
+        </person>  
+        <person sex="male">
+            <firstname>Luis</firstname>
+            <initial>O</initial>
+            <surname>Topia</surname>                          
+        </person> 
+    </authors>
+    <publisher>
+        <publishername></publishername>
+        <address>
+            <addressnum></addressnum>
+            <street></street>
+            <city></city>
+            <country>Espania</country>
+            <zipcode></zipcode>
+        </address>
+    </publisher>
+    <publishedDate>
+        <date>
+            <month>5</month>
+            <year>2008</year>
+        </date>        
+    </publishedDate>
+    <copyright>
+        <date>
+            <year>2008</year>
+        </date>
+        <person sex="male">
+            <firstname>Hristo</firstname>
+            <surname>Stoichkov</surname>
+        </person>
+        
+    </copyright>
+    <isbn>
+        <isbn10>0-471-77778-1</isbn10>
+        <isbn13>978-0-471-77778-6</isbn13>
+    </isbn>
+    <copyEditors>
+        <person sex="male">
+            <firstname>Antonio</firstname>
+            <surname>Rosique</surname>
+        </person>
+    </copyEditors>
+    <other>
+        <wwwurl>http://www.libroelocho.com/</wwwurl>
+        <pages>135</pages>
+    </other>
+</book>

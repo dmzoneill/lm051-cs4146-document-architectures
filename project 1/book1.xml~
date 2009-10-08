@@ -1,0 +1,102 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book SYSTEM "book.dtd">
+<?xml-stylesheet href="book.css" type="text/css"?>
+<book id="book1" covertype="soft" category="Programming">    
+    <title>Sams Teach Yourself C in 21 Days</title>    
+    <authors>
+        <person sex="male">
+            <firstname>Peter</firstname>
+            <surname>Aitken</surname>
+            <email>peter@pgacon.com</email>
+        </person>
+        <person sex="male">
+            <firstname>Bradley</firstname>
+            <initial>L</initial>
+            <surname>Jones</surname>
+            <email>jones@iquest.com</email>   
+        </person>           
+    </authors>    
+    <publisher>
+        <publishername>Sams</publishername>
+        <address>
+            <addressnum>201</addressnum>
+            <street>West 103rd St.</street>
+            <city>Indiana</city>
+            <country>USA</country>
+            <zipcode>46290</zipcode>
+        </address>
+    </publisher>    
+    <edition>
+        <editionnum>5</editionnum>
+    </edition>    
+    <publishedDate>
+        <date>
+            <month>10</month>
+            <year>1999</year>
+        </date>
+    </publishedDate>    
+    <copyright>
+        <date>
+            <year>2000</year>
+        </date>
+        <companyname>Sams Publishing</companyname>
+    </copyright>    
+    <isbn>
+        <isbn10>0-672-31766-4</isbn10>
+    </isbn>    
+    <AcquisitionsEditors>
+        <person>
+            <firstname>Sharon</firstname>
+            <surname>Cox</surname>
+        </person>
+    </AcquisitionsEditors>    
+    <projectEditors>
+        <person>
+            <firstname>Heather</firstname>
+            <surname>Talbot</surname>
+        </person>
+        <person>
+            <firstname>Heather</firstname>
+            <surname>Talbot</surname>
+        </person>
+        <person>
+            <firstname>Gretchen</firstname>
+            <surname>Uphoff</surname>
+        </person>
+    </projectEditors>    
+    <coverDesigners>
+        <person>
+            <firstname>Aren</firstname>
+            <surname>Howell</surname>
+        </person>
+    </coverDesigners>      
+    <copyEditors>
+        <person>
+            <firstname>Mary</firstname>
+            <surname>Lagu</surname>
+        </person>
+    </copyEditors>    
+    <technicalEditors>
+        <person>
+            <firstname>Tony</firstname>
+            <surname>Zhang</surname>
+        </person>
+    </technicalEditors>    
+    <proofReaders>
+        <person>
+            <firstname>Jill</firstname>
+            <surname>Mazurczyk</surname>
+        </person>
+    </proofReaders>    
+    <indexers>
+        <person>
+            <firstname>Bruce</firstname>
+            <surname>Clingaman</surname>
+        </person>
+    </indexers>    
+    <url></url>
+    <price></price>
+    <picture></picture>
+    <pages>789</pages>    
+</book>
+
