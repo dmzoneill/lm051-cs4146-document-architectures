@@ -1,5 +1,9 @@
 # CS4146 Document Architectures
 
+<p align="center">
+  <img src=".github/logo.png" alt="lm051-cs4146-document-architectures logo" width="128" />
+</p>
+
 Projects for the CS4146 Document Architectures module, from the LM051 Computer
 Systems degree at the University of Limerick.
 
