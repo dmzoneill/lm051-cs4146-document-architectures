@@ -3,7 +3,7 @@
 
     Written by David O Neill
     Student Id 0813001
-    Document Arhitectures
+    Document Architectures
     
     Interface for Jquery
     
@@ -222,7 +222,7 @@ function parseXmlDoc(xml, name) {
         $("<a></a>")
           .attr("href", "#")
           .attr("id", "fullSynopsys")
-          .text("Short synopsys"),
+          .text("Short synopsis"),
       );
       $("#dvdDescription").append($("<br/><br/>"));
       $("#dvdDescription").prepend(
@@ -231,7 +231,7 @@ function parseXmlDoc(xml, name) {
             "style",
             "font-weight:bold; margin-bottom:15px; margin-top:0px;",
           )
-          .text("Synopsys"),
+          .text("Synopsis"),
       );
       $("#dvdDescription").hide();
 
@@ -241,7 +241,7 @@ function parseXmlDoc(xml, name) {
         $("<a></a>")
           .attr("href", "#")
           .attr("id", "shortSynopsys")
-          .text("Full synopsys"),
+          .text("Full synopsis"),
       );
       $("#dvdDescriptionShort").append($("<br/><br/>"));
       $("#dvdDescriptionShort").prepend(
@@ -250,7 +250,7 @@ function parseXmlDoc(xml, name) {
             "style",
             "font-weight:bold; margin-bottom:15px; margin-top:0px;",
           )
-          .text("Synopsys"),
+          .text("Synopsis"),
       );
       $("#dvdDescriptionShort").slideDown("fast");
 
